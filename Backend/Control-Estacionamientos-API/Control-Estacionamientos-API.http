@@ -1,0 +1,44 @@
+@Control_Estacionamientos_API_HostAddress = http://localhost:5085
+
+### Obtener todos los registros
+GET {{Control_Estacionamientos_API_HostAddress}}/api/cliente
+Accept: application/json
+
+### Obtener un registro por ID
+GET {{Control_Estacionamientos_API_HostAddress}}/api/cliente/12345678
+Accept: application/json
+
+### Crear un nuevo registro
+POST {{Control_Estacionamientos_API_HostAddress}}/api/cliente
+Content-Type: application/json
+Accept: application/json
+
+{
+  "dni_cliente" = "12345678";
+  "nom_cliente" = "Piero";
+  "ape_cliente" = "Zevallos";
+  "dir_cliente" = "Jiron La Union 123";
+  "cod_postal" = "010101";
+  "tel_cliente" = "999-999-999";
+  "mail_cliente" = "pzevallos@mail.com";
+}
+
+### Actualizar un registro existente
+PUT {{Control_Estacionamientos_API_HostAddress}}/api/cliente/12345678
+Content-Type: application/json
+Accept: application/json
+
+{
+  "dni_cliente" = "12345678";
+  "nom_cliente" = "Juan";
+  "ape_cliente" = "Zevallos";
+  "dir_cliente" = "Jiron La Union 123";
+  "cod_postal" = "101010";
+  "tel_cliente" = "888-888-888";
+  "mail_cliente" = "jzevallos@mail.com";
+}
+
+### Eliminar un registro por ID
+DELETE {{Control_Estacionamientos_API_HostAddress}}/api/cliente/12345678
+Accept: application/json
+

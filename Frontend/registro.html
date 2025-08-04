@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registros</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/logo_empresa.png" width="100" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="cliente.html">Cliente</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vehiculo.html">Vehiculo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="plaza.html">Plaza</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registro.html">Registro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="autorizacion.html">Autorización</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <h1>Registro de Ingresos y Salidas</h1>
+
+  <a class="btn btn-primary" id="btn-registrar">Registrar Nuevo</a>
+
+  <!-- Modal -->
+  <div id="modal">
+    <div class="modal-contenido">
+      <h3 id="tituloModal">Formulario Registros</h3>
+      <form id="formRegistro">
+        <input type="hidden" id="modo" value="nuevo">
+        <select id="numero" required>
+        </select>
+        <select id="ios" required>
+          <option value="I">Ingreso</option>
+          <option value="S">Salida</option>
+        </select>
+        <input type="date" id="fechora" placeholder="Fecha y Hora" required>
+        <input type="text" id="conductor" placeholder="DNI Conductor" required>
+        <input type="text" id="matricula" placeholder="Matrícula" required>
+        <button type="submit">Guardar</button>
+        <button type="button" id="cerrarModal">Cancelar</button>
+      </form>
+    </div>
+  </div>
+
+  <select id="filtroNumPlaza"></select>
+  <input type="text" id="filtroConductor" name="filtroConductor" placeholder="DNI Conductor">
+  <input type="text" id="filtroMatricula" name="filtroMatricula" placeholder="Matrícula">
+  <input type="date" id="filtroFecHora" name="filtroFecHora" placeholder="Fecha y Hora" required>
+  <select id="filtroIoS">
+          <option value="I">Ingreso</option>
+          <option value="S">Salida</option>
+  </select>
+  <button type="submit" class="btn btn-primary" id="btn-filtrar">Filtrar</button>
+
+  <table id="registrosTable">
+    <thead>
+      <tr>
+        <th>Numero Plaza</th>
+        <th>Ingreso/Salida</th>
+        <th>Fecha/Hora</th>
+        <th>DNI Conductor</th>
+        <th>Matricula</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Aquí se agregan los datos desde AJAX -->
+    </tbody>
+  </table>
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/registro.js"></script>
+</body>
+</html>

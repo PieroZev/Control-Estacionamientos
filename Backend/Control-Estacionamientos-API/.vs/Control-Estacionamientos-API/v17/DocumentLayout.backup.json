@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02D21664-56AB-4672-B515-BAB68E4FEA1F}|Control-Estacionamientos-API.csproj|c:\\users\\user\\onedrive\\documentos\\piero\\portafolio piero zev\\andes express\\control-estacionamientos\\backend\\control-estacionamientos-api\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D21664-56AB-4672-B515-BAB68E4FEA1F}|Control-Estacionamientos-API.csproj|solutionrelative:controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D21664-56AB-4672-B515-BAB68E4FEA1F}|Control-Estacionamientos-API.csproj|c:\\users\\user\\onedrive\\documentos\\piero\\portafolio piero zev\\andes express\\control-estacionamientos\\backend\\control-estacionamientos-api\\model\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D21664-56AB-4672-B515-BAB68E4FEA1F}|Control-Estacionamientos-API.csproj|solutionrelative:model\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D21664-56AB-4672-B515-BAB68E4FEA1F}|Control-Estacionamientos-API.csproj|c:\\users\\user\\onedrive\\documentos\\piero\\portafolio piero zev\\andes express\\control-estacionamientos\\backend\\control-estacionamientos-api\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D21664-56AB-4672-B515-BAB68E4FEA1F}|Control-Estacionamientos-API.csproj|solutionrelative:controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D21664-56AB-4672-B515-BAB68E4FEA1F}|Control-Estacionamientos-API.csproj|c:\\users\\user\\onedrive\\documentos\\piero\\portafolio piero zev\\andes express\\control-estacionamientos\\backend\\control-estacionamientos-api\\model\\plaza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D21664-56AB-4672-B515-BAB68E4FEA1F}|Control-Estacionamientos-API.csproj|solutionrelative:model\\plaza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D21664-56AB-4672-B515-BAB68E4FEA1F}|Control-Estacionamientos-API.csproj|c:\\users\\user\\onedrive\\documentos\\piero\\portafolio piero zev\\andes express\\control-estacionamientos\\backend\\control-estacionamientos-api\\model\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D21664-56AB-4672-B515-BAB68E4FEA1F}|Control-Estacionamientos-API.csproj|solutionrelative:model\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D21664-56AB-4672-B515-BAB68E4FEA1F}|Control-Estacionamientos-API.csproj|c:\\users\\user\\onedrive\\documentos\\piero\\portafolio piero zev\\andes express\\control-estacionamientos\\backend\\control-estacionamientos-api\\controllers\\plazacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D21664-56AB-4672-B515-BAB68E4FEA1F}|Control-Estacionamientos-API.csproj|solutionrelative:controllers\\plazacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registro.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\Model\\Registro.cs",
+              "RelativeDocumentMoniker": "Model\\Registro.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\Model\\Registro.cs",
+              "RelativeToolTip": "Model\\Registro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T03:37:10.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistroController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\Controllers\\RegistroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistroController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\Controllers\\RegistroController.cs",
+              "RelativeToolTip": "Controllers\\RegistroController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T03:23:47.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Plaza.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\Model\\Plaza.cs",
+              "RelativeDocumentMoniker": "Model\\Plaza.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\Model\\Plaza.cs",
+              "RelativeToolTip": "Model\\Plaza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T02:39:36.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\Model\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "Model\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\Model\\Vehiculo.cs",
+              "RelativeToolTip": "Model\\Vehiculo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T02:24:58.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehiculoController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\Controllers\\VehiculoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VehiculoController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\Controllers\\VehiculoController.cs",
+              "RelativeToolTip": "Controllers\\VehiculoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T02:24:56.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlazaController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\Controllers\\PlazaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlazaController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Documentos\\Piero\\Portafolio Piero Zev\\Andes Express\\Control-Estacionamientos\\Backend\\Control-Estacionamientos-API\\Controllers\\PlazaController.cs",
+              "RelativeToolTip": "Controllers\\PlazaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T02:08:41.536Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

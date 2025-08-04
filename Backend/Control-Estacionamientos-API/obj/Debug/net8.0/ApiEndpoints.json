@@ -1,0 +1,510 @@
+[
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.AutorizacionController",
+    "Method": "GetAutorizaciones",
+    "RelativePath": "api/autorizacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Control_Estacionamientos_API.Model.Autorizacion, Control-Estacionamientos-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.AutorizacionController",
+    "Method": "CreateAutorizacion",
+    "RelativePath": "api/autorizacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autorizacion",
+        "Type": "Control_Estacionamientos_API.Model.Autorizacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Control_Estacionamientos_API.Model.Autorizacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.AutorizacionController",
+    "Method": "GetAutorizacion",
+    "RelativePath": "api/autorizacion/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Control_Estacionamientos_API.Model.Autorizacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.AutorizacionController",
+    "Method": "PutActualizacion",
+    "RelativePath": "api/autorizacion/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "autorizacion",
+        "Type": "Control_Estacionamientos_API.Model.Autorizacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.AutorizacionController",
+    "Method": "DeleteAutorizacion",
+    "RelativePath": "api/autorizacion/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.ClienteController",
+    "Method": "GetClientes",
+    "RelativePath": "api/cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Control_Estacionamientos_API.Model.Cliente, Control-Estacionamientos-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.ClienteController",
+    "Method": "CreateCliente",
+    "RelativePath": "api/cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "Control_Estacionamientos_API.Model.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Control_Estacionamientos_API.Model.Cliente",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.ClienteController",
+    "Method": "GetCliente",
+    "RelativePath": "api/cliente/{dni}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Control_Estacionamientos_API.Model.Cliente",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.ClienteController",
+    "Method": "PutCliente",
+    "RelativePath": "api/cliente/{dni}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "cliente",
+        "Type": "Control_Estacionamientos_API.Model.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.ClienteController",
+    "Method": "DeleteCliente",
+    "RelativePath": "api/cliente/{dni}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.PlazaController",
+    "Method": "GetPlazas",
+    "RelativePath": "api/plaza",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Control_Estacionamientos_API.Model.Plaza, Control-Estacionamientos-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.PlazaController",
+    "Method": "CreatePlaza",
+    "RelativePath": "api/plaza",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plaza",
+        "Type": "Control_Estacionamientos_API.Model.Plaza",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Control_Estacionamientos_API.Model.Plaza",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.PlazaController",
+    "Method": "GetPlaza",
+    "RelativePath": "api/plaza/{num}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "num",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Control_Estacionamientos_API.Model.Plaza",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.PlazaController",
+    "Method": "PutPlaza",
+    "RelativePath": "api/plaza/{num}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "num",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "plaza",
+        "Type": "Control_Estacionamientos_API.Model.Plaza",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.PlazaController",
+    "Method": "DeletePlaza",
+    "RelativePath": "api/plaza/{num}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "num",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.RegistroController",
+    "Method": "GetRegistros",
+    "RelativePath": "api/registro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Control_Estacionamientos_API.Model.Registro, Control-Estacionamientos-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.RegistroController",
+    "Method": "CreateRegistro",
+    "RelativePath": "api/registro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registro",
+        "Type": "Control_Estacionamientos_API.Model.Registro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Control_Estacionamientos_API.Model.Registro",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.RegistroController",
+    "Method": "BuscarRegistro",
+    "RelativePath": "api/registro/buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registro",
+        "Type": "Control_Estacionamientos_API.Model.Registro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Control_Estacionamientos_API.Model.Registro, Control-Estacionamientos-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.VehiculoController",
+    "Method": "GetVehiculos",
+    "RelativePath": "api/vehiculo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Control_Estacionamientos_API.Model.Vehiculo, Control-Estacionamientos-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.VehiculoController",
+    "Method": "CreateVehiculo",
+    "RelativePath": "api/vehiculo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehiculo",
+        "Type": "Control_Estacionamientos_API.Model.Vehiculo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Control_Estacionamientos_API.Model.Vehiculo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.VehiculoController",
+    "Method": "GetVehiculo",
+    "RelativePath": "api/vehiculo/{cod}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cod",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Control_Estacionamientos_API.Model.Vehiculo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.VehiculoController",
+    "Method": "PutVehiculo",
+    "RelativePath": "api/vehiculo/{cod}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cod",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "vehiculo",
+        "Type": "Control_Estacionamientos_API.Model.Vehiculo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Control_Estacionamientos_API.Controllers.VehiculoController",
+    "Method": "DeletePlaza",
+    "RelativePath": "api/vehiculo/{cod}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cod",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
